@@ -1,4 +1,7 @@
 const mongoose = require('mongoose');
+
+mongoose.set('useCreateIndex',true);
+
 const config = require('config');
 const db = config.get('mongoURI');
 
