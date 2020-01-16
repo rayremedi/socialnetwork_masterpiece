@@ -18,9 +18,9 @@ const Dashboard = ({
     <Spinner />
   ) : (
     <Fragment>
-      <h1 className='large text-primary'>Dashboard</h1>
+      <h1 className='large text-primary'>Tableau de bord</h1>
       <p className='lead'>
-        <i className='fas fa-user'></i>Welcome {user && user.name}
+        <i className='fas fa-user'></i>Bienvenue {user && user.name}
       </p>
       {profile !== null ? (
         <Fragment>has</Fragment>

@@ -36,10 +36,10 @@ router.post(
   [
     auth,
     [
-      check('status', 'status is required')
+      check('status', 'Une profession est requise')
         .not()
         .isEmpty(),
-      check('skills', 'Skills is required')
+      check('skills', 'Une compétences est requise')
         .not()
         .isEmpty()
     ]
@@ -170,13 +170,13 @@ router.put(
   [
     auth,
     [
-      check('title', 'Title is required')
+      check('title', 'Le titre est requis')
         .not()
         .isEmpty(),
-      check('company', 'Company is required')
+      check('company', 'L\'entreprise est requise')
         .not()
         .isEmpty(),
-      check('from', 'From date is required')
+      check('from', 'La date est requise')
         .not()
         .isEmpty()
     ]
