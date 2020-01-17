@@ -35,7 +35,7 @@ const AddEducation = ({addEducation, history}) => {
         <div className='form-group'>
           <input
             type='text'
-            placeholder='* Ecole ou Bootcamp'
+            placeholder='* École ou Bootcamp'
             name='school'
             value={school}
             onChange={e => onChange(e)}
@@ -82,7 +82,7 @@ const AddEducation = ({addEducation, history}) => {
                 toggleDisabled(!toDateDisabled);
               }}
             />{' '}
-            Cursus actuel
+            École actuel
           </p>
         </div>
         <div className='form-group'>
