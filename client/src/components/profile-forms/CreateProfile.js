@@ -57,17 +57,17 @@ const CreateProfile = ({ createProfile, history }) => {
         <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>
             <option value='0'>* Sélectionnez une profession</option>
-            <option value='Developer'>Developpeur</option>
-            <option value='Junior Developer'> Developpeur Junior </option>
-            <option value='Senior Developer'>Developpeur Senior </option>
-            <option value='Manager'>Manageur</option>
-            <option value='Student or Learning'>Apprenant</option>
-            <option value='Instructor'>Instructeur ou professeur</option>
-            <option value='Intern'>Interne</option>
-            <option value='Other'>Autres</option>
+            <option value='Developpeur'>Développeur</option>
+            <option value='Developpeur Junior'> Développeur Junior </option>
+            <option value='Developpeur Senior'>Développeur Senior </option>
+            <option value='Manageur'>Manageur</option>
+            <option value='Etudiant ou Apprenant'>Apprenant</option>
+            <option value='Instructeur'>Instructeur ou professeur</option>
+            <option value='Interne'>Interne</option>
+            <option value='Autres'>Autres</option>
           </select>
           <small className='form-text'>
-            Donnez-nous une idée de où vous en êtes dans votre carrière
+            Votre post actuel
           </small>
         </div>
         <div className='form-group'>
@@ -79,7 +79,7 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Votre propre entreprise ou celle pour laquelle vous travaillez
+            L'entreprise pour laquelle vous travaillez
           </small>
         </div>
         <div className='form-group'>
@@ -91,7 +91,7 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Peut être la vôtre ou un site Web d'entreprise
+            Site Web de l'entreprise pour laquelle vous travaillez ou portfolio personnel
           </small>
         </div>
         <div className='form-group'>
@@ -103,7 +103,7 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Ville & etat suggérés (ex. Paris, FR)
+            Ville actuelle (ex. Paris, FR)
           </small>
         </div>
         <div className='form-group'>
@@ -128,8 +128,8 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Si vous souhaitez votre dernier repos et un lien Github, incluez
-            votre Nom d'utilisateur
+            Si vous souhaitez montrer vos derniers repos  Github, incluer
+            votre nom d'utilisateur Github
           </small>
         </div>
         <div className='form-group'>
@@ -139,7 +139,7 @@ const CreateProfile = ({ createProfile, history }) => {
             value={bio}
             onChange={e => onChange(e)}
           ></textarea>
-          <small className='form-text'>Parle-nous un peu de toi</small>
+          <small className='form-text'>Parlez-nous un peu de vous(passions,motivations etc...)</small>
         </div>
 
         <div className='my-2'>
@@ -148,7 +148,7 @@ const CreateProfile = ({ createProfile, history }) => {
             type='button'
             className='btn btn-light'
           >
-            Ajouter des liens de réseaux sociaux
+            Liens des réseaux sociaux
           </button>
           <span>Optionel</span>
         </div>
