@@ -15,7 +15,7 @@ const ProfileItem = ({profile:{
             <img src={avatar} alt="" className="round-img"/>
         <div>
             <h2>{name}</h2>
-    <p>{status} {company && <span>at {company}</span>}</p>
+    <p>{status} {company && <span>à {company}</span>}</p>
     <p className="my-1">{location && <span>{location}</span>}</p>
     <Link to={`/profile/${_id}`} className="btn btn-primary">
         Voir le profil

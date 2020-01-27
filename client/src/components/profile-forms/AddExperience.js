@@ -99,7 +99,7 @@ const AddExperience = ({addExperience, history}) => {
             onChange={e => onChange(e)}
           ></textarea>
         </div>
-        <input type='submit' className='btn btn-primary my-1' />
+        <input type='submit' className='btn btn-primary my-1'value='Confirmer' />
         <Link className='btn btn-light my-1' to='/dashboard'>
           Retour
         </Link>
