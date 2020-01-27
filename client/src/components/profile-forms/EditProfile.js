@@ -82,14 +82,14 @@ const EditProfile = ({
         <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>
             <option value='0'>* Sélectionnez une profession</option>
-            <option value='Developer'>Developpeur</option>
-            <option value='Junior Developer'> Developpeur Junior </option>
-            <option value='Senior Developer'>Developpeur Senior </option>
-            <option value='Manager'>Manageur</option>
-            <option value='Student or Learning'>Apprenant</option>
-            <option value='Instructor'>Instructeur ou professeur</option>
-            <option value='Intern'>Interne</option>
-            <option value='Other'>Autres</option>
+            <option value='Developpeur Junior'>Développeur Junior</option>
+            <option value='Developpeur Intermédiaire'> Développeur Intermédiaire </option>
+            <option value='Developpeur Senior'>Développeur Senior </option>
+            <option value='Community Manager'>Community Manager</option>
+            <option value='Etudiant ou Apprenant'>Apprenant</option>
+            <option value='Instructeur'>Instructeur ou professeur</option>
+            <option value='Interne'>Interne</option>
+            <option value='Autres'>Autres</option>
           </select>
           <small className='form-text'>
             Donnez-nous une idée de où vous en êtes dans votre carrière

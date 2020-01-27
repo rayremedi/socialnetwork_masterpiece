@@ -57,10 +57,10 @@ const CreateProfile = ({ createProfile, history }) => {
         <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>
             <option value='0'>* Sélectionnez une profession</option>
-            <option value='Developpeur'>Développeur</option>
-            <option value='Developpeur Junior'> Développeur Junior </option>
+            <option value='Developpeur Junior'>Développeur Junior</option>
+            <option value='Developpeur Intermédiaire'> Développeur Intermédiaire </option>
             <option value='Developpeur Senior'>Développeur Senior </option>
-            <option value='Manageur'>Manageur</option>
+            <option value='Community Manager'>Community Manager</option>
             <option value='Etudiant ou Apprenant'>Apprenant</option>
             <option value='Instructeur'>Instructeur ou professeur</option>
             <option value='Interne'>Interne</option>
